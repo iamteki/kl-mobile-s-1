@@ -1,7 +1,13 @@
+/* resources/css/app.css */
+
 /* Import Bootstrap */
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Import Font Awesome */
 @import '@fortawesome/fontawesome-free/css/all.min.css';
-@import 'swiper/css/swiper-bundle.min.css';
+
+/* Import Swiper - Updated path for v11 */
+@import 'swiper/swiper-bundle.min.css';
 
 /* Import custom styles */
 @import './variables.css';

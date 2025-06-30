@@ -13,6 +13,17 @@ use App\Http\Controllers\Frontend\{
     PageController
 };
 
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
+*/
+
 // Public routes
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
@@ -42,6 +53,9 @@ Route::delete('/cart/remove-coupon', [CartController::class, 'removeCoupon'])->n
 // Quick Booking (for direct package booking)
 Route::post('/booking/create', [BookingController::class, 'create'])->name('booking.create');
 
+// Search
+Route::get('/search', [ProductController::class, 'search'])->name('search');
+
 // Static Pages
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/services', [PageController::class, 'services'])->name('services');
@@ -51,8 +65,7 @@ Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
 Route::get('/terms', [PageController::class, 'terms'])->name('terms');
 Route::get('/sitemap', [PageController::class, 'sitemap'])->name('sitemap');
 
-// Authentication Routes (Laravel Breeze or similar will add these)
-require __DIR__.'/auth.php';
+
 
 // Authenticated routes
 Route::middleware(['auth'])->group(function () {

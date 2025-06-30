@@ -13,8 +13,9 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            '~bootstrap': 'node_modules/bootstrap',
-            '~fontawesome': 'node_modules/@fortawesome/fontawesome-free',
-        }
+        '~bootstrap': 'node_modules/bootstrap',
+        '~fontawesome': 'node_modules/@fortawesome/fontawesome-free',
+        '~swiper': 'node_modules/swiper',
+    }
     }
 });

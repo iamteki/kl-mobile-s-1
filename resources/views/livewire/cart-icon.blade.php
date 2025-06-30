@@ -11,6 +11,8 @@
     </a>
 </div>
 
+@once
+@push('styles')
 <style>
 .cart-icon-wrapper {
     position: relative;
@@ -72,3 +74,5 @@
     }
 }
 </style>
+@endpush
+@endonce

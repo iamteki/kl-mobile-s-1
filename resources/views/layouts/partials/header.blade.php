@@ -150,7 +150,7 @@
                 
                 <!-- User Menu -->
                 @guest
-                    <a href="{{ route('login') }}" class="btn btn-outline-light btn-sm ms-3">
+                    <a href="" class="btn btn-outline-light btn-sm ms-3">
                         <i class="fas fa-user me-2"></i>Login
                     </a>
                 @else
