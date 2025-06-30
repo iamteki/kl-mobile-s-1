@@ -1,0 +1,38 @@
+:root {
+    /* Sophisticated Dark Theme with Purple Accents */
+    --primary-purple: #9333EA;
+    --secondary-purple: #C084FC;
+    --accent-violet: #7C3AED;
+    --accent-indigo: #6366F1;
+    --accent-pink: #EC4899;
+    --accent-cyan: #06B6D4;
+    
+    /* Neutrals */
+    --pure-white: #FFFFFF;
+    --off-white: #F8F9FA;
+    --light-gray: #E9ECEF;
+    --medium-gray: #6C757D;
+    --dark-gray: #343A40;
+    
+    /* Dark backgrounds */
+    --bg-black: #000000;
+    --bg-dark: #0A0A0A;
+    --bg-darker: #050505;
+    --bg-card: #141414;
+    --bg-card-hover: #1A1A1A;
+    
+    /* Borders */
+    --border-color: #2A2A2A;
+    --border-light: #3A3A3A;
+    
+    /* Status Colors */
+    --success-green: #22C55E;
+    --warning-yellow: #F59E0B;
+    --danger-red: #EF4444;
+    
+    /* Gradients */
+    --gradient-purple: linear-gradient(135deg, #9333EA 0%, #C084FC 100%);
+    --gradient-violet: linear-gradient(135deg, #7C3AED 0%, #6366F1 100%);
+    --gradient-pink: linear-gradient(135deg, #EC4899 0%, #9333EA 100%);
+    --gradient-dark: linear-gradient(180deg, #0A0A0A 0%, #000000 100%);
+}
